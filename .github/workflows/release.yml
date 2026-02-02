@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main", "installer-test/**"]
     tags: ["v3.*.*"] # Manual delivery on every 3.x tag
-  workflow_dispath: {}
+  workflow_dispatch: {}
 
 jobs:
   build-connectors:
